@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+/* NAVBAR */
+.navbar{
+    position:absolute;
+    top:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+    color:white;
+    z-index:10;
+}
+
+.navbar nav a{
+    margin-left:25px;
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+}
+
+/* HERO */
+.hero{
+    min-height:100vh;
+    background:linear-gradient(120deg,#4facfe,#00c6ff);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:120px 80px 60px;
+    color:white;
+}
+
+.hero-content{
+    max-width:550px;
+}
+
+.tag{
+    background:white;
+    color:#00a2ff;
+    padding:5px 12px;
+    border-radius:6px;
+    font-size:12px;
+    display:inline-block;
+    margin-bottom:15px;
+}
+
+.hero h1{
+    font-size:48px;
+    line-height:1.2;
+}
+
+.hero h1 span{
+    font-weight:300;
+}
+
+.hero p{
+    margin:20px 0;
+    line-height:1.6;
+    opacity:0.9;
+}
+
+.buttons{
+    margin:25px 0;
+}
+
+.btn{
+    padding:12px 22px;
+    text-decoration:none;
+    border-radius:6px;
+    margin-right:10px;
+    font-size:14px;
+    display:inline-block;
+}
+
+.primary{
+    background:#007bff;
+    color:white;
+}
+
+.secondary{
+    background:white;
+    color:#007bff;
+}
+
+.social{
+    margin-top:20px;
+}
+
+.social a{
+    color:white;
+    text-decoration:none;
+    margin-right:15px;
+    font-size:13px;
+}
+
+/* HERO IMAGE */
+.hero-img img{
+    width: 27vw;
+    height:30vw;
+
+}
+
+/* ABOUT */
+.about{
+    background:white;
+    display:flex;
+    align-items:center;
+    padding:80px;
+    gap:60px;
+}
+
+.about-img img{
+    width:200px;
+    border-radius:20px;
+}
+
+.about-text{
+    max-width:600px;
+}
+
+.tabs{
+    margin-bottom:20px;
+}
+
+.tabs button{
+    padding:8px 16px;
+    border:none;
+    margin-right:10px;
+    cursor:pointer;
+    background:#eaeaea;
+    border-radius:4px;
+}
+
+.tabs .active{
+    background:#007bff;
+    color:white;
+}
+
+.about-text h2{
+    margin-bottom:15px;
+}
+
+.about-text p{
+    line-height:1.6;
+    margin-bottom:15px;
+}
+
+.about-text h4{
+    font-weight:600;
+}
